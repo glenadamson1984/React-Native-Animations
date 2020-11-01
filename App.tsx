@@ -20,6 +20,12 @@ const moveBlueBall = () => {
     duration: 1000,
     useNativeDriver: false
   }).start();
+
+  // if you want more of a bounce effect use spring with no duration
+  // Animated.spring(value2, {
+  //   toValue: 100,
+  //   useNativeDriver: false
+  // }).start();
 }
 
   return (
